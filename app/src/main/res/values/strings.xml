@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Shigero Miyamoto</string>
+    <string name="menu_descricao">Descrição</string>
+    <string name="menu_jogos">Jogos</string>
+    <string name="menu_imagens">Imagens</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nome">Shigeru Miyamoto</string>
+    <string name="descricao1">Shigeru Miyamoto (宮本 茂) é um designer e produtor de jogos eletrônicos japonês, conhecido por ser o criador de algumas das mais bem-sucedidas séries de jogos eletrônicos de todos os tempos.
+        Miyamoto entrou na Nintendo em 1977, quando a companhia entrava no mercado de jogos. Seus primeiros trabalhos foram em árcades no final da década, e desde então, seus jogos estão em todos os consoles da Nintendo. Séries que Miyamoto criou ou produziu incluem as séries Super Mario, Donkey Kong, The Legend of Zelda, Star Fox, F-Zero, Pikmin e a série Wii.
+    </string>
+
+    <string name="descricao2">
+        Nascido em Sonobe (atual Nantan), na prefeitura de Quioto, Shigeru Miyamoto é o segundo filho do casal Lijake Miyamoto e Hinako Aruha. Desde pequeno gostava de desenhar, pintar e explorar as áreas próximas de sua casa. Mais tarde, inclusive, ele confessou ter baseado grande parte do jogo The Legend of Zelda em explorações que empreendia na infância em cavernas da região. Outra de suas inspirações para games veio do cão de um vizinho, que ficava sempre preso a uma corrente e o amedrontava particularmente: daí surgiu a ideia para o Chain Chomp, o conhecido inimigo da série Mario.
+    </string>
+
+    <string name="descricao3">
+        Miyamoto inscreveu-se na Academia de Artes Industriais e Manuais Kanazawa Munice em 1970 e, mesmo que afirmando que os estudos não estavam em primeiro lugar se formou cinco anos depois. Com o diploma de arquitetura em mãos, Shigeru conseguiu uma entrevista com um amigo de seu pai, Hiroshi Yamauchi, o presidente da Nintendo na época, que o contratou como artista e o colocou como um aprendiz no departamento de planejamento. Passou um bom tempo criando o exterior de máquinas de arcades, até começar a criar personagens, coisa que não pararia mais de fazer.
+    </string>
+
+    <string name="birth">November 16, 1952 - Japan</string>
+    <string name="game1">Jogo1</string>
+    <string name="diretor">Diretor</string>
+    <string name="produtor">Produtor</string>
+    <string name="designer">Designer</string>
+    <string name="menu_estudos">Estudos</string>
+    <string name="dk">Donkey Kong</string>
+    <string name="smb">Super Mario Bros.</string>
+    <string name="tloz">The Legend of Zelda</string>
+    <string name="smw">Super Mario World</string>
+    <string name="sm64">Super Mario 64</string>
+    <string name="oot">The Legend of Zelda: Ocarina of Time</string>
+    <string name="wl4">Wario Land 4</string>
+    <string name="smg">Super Mario Galaxy</string>
+    <string name="menu_cur">Curiosidades</string>
+</resources>

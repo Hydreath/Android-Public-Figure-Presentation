@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstTabFragment"
+    android:background="@drawable/background_gradient"
+    android:layout_marginBottom="@dimen/bottom_nav_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="100dp"
+                android:layout_height="00dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:minWidth="100dp"
+                android:minHeight="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/i1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/titulo1"
+                android:layout_width="244dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="1. Ele originalmente queria desenhar bandas desenhadas"
+                android:textColor="@color/colorDarkModeAccents_orange"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/img1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/texto1"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Nascido na cidade rural japonesa de Sonobe, em 1952, Miyamoto adorava bandas desenhadas japonesas (mangás) e aspirava tornar-se ilustrador se tornasse mais velho. ‘Eu desisti disso porque haviam tantos outros artistas de mangá que tinham uma qualidade tão alta que eu senti que não poderia competir com eles’."
+                android:textColor="@color/colorDarkModeText"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/img1"
+                app:layout_constraintTop_toBottomOf="@+id/titulo1" />
+        </android.support.constraint.ConstraintLayout>
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="100dp"
+                android:layout_height="00dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:minWidth="100dp"
+                android:minHeight="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/i2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/titulo2"
+                android:layout_width="244dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="2. Foi entrevistado pela Nintendo porque o pai conhecia o patrão"
+                android:textColor="@color/colorDarkModeAccents_orange"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/img2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/texto2"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Pouco depois de se formar no Colégio Kanawaza de Artes Industriais Municipais, Miyamoto conseguiu uma entrevista de emprego na Nintendo em 1976 porque seu pai conhecia o patrão da empresa, Hiroshi Yamauchi, através de um amigo em comum. Ele mostrou a Yamauchi alguns brinquedos de madeira que ele havia feito – duas arcades na forma de um corvo e um elefante. Depois de receber um trabalho como aprendiz de artista, Miyamoto começou a projetar arte de árcade para jogos de fliperama como Sheriff e Space Fever."
+                android:textColor="@color/colorDarkModeText"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/img2"
+                app:layout_constraintTop_toBottomOf="@+id/titulo2" />
+        </android.support.constraint.ConstraintLayout>
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="100dp"
+                android:layout_height="00dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:minWidth="100dp"
+                android:minHeight="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/i3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/titulo3"
+                android:layout_width="244dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="3. Queria o Mario em qualquer jogo que fizesse"
+                android:textColor="@color/colorDarkModeAccents_orange"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/img3"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/texto3"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Tomando uma dica de Alfred Hitchcock, que fez uma participação especial em quase todos os filmes que dirigiu, Miyamoto queria que Mario (anteriormente conhecido como ‘Mr. Video’ e ‘Jumpman’ antes da Nintendo of America o nomeasse como seu proprietário de armazém) aparecer em cada jogo ele projetou."
+                android:textColor="@color/colorDarkModeText"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/img3"
+                app:layout_constraintTop_toBottomOf="@+id/titulo3" />
+        </android.support.constraint.ConstraintLayout>
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="100dp"
+                android:layout_height="00dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:minWidth="100dp"
+                android:minHeight="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/i4"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/titulo4"
+                android:layout_width="244dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="4. Zelda doi modelado com inspiração numa caverna da sua infância"
+                android:textColor="@color/colorDarkModeAccents_orange"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/img4"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/texto4"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="O próximo avanço de Miyamoto, The Legend of Zelda, veio de algumas expedições locais que ele havia feito quando criança."
+                android:textColor="@color/colorDarkModeText"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/img4"
+                app:layout_constraintTop_toBottomOf="@+id/titulo4" />
+        </android.support.constraint.ConstraintLayout>
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="100dp"
+                android:layout_height="00dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:minWidth="100dp"
+                android:minHeight="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/i5"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/titulo5"
+                android:layout_width="244dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="5. Ele recolhe inspiração de todo o lado"
+                android:textColor="@color/colorDarkModeAccents_orange"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/img5"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/texto5"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Miyamoto é famoso por permitir que experiências mundanas informassem seu design de jogos. Os adversários Chain Chomp com dentes afiados em Super Mario Bros. 3 foram modelados de acordo com um cão da vizinhança de sua juventude que uma vez o perseguiu pela vizinhança; as cenas subaquáticas em Super Mario 64 foram o resultado de sua recém-descoberta devoção à natação; Nintendogs, um popular jogo de pet care para o DSi, aconteceu depois que Miyamoto trouxe para casa um cão pastor de Shetland."
+                android:textColor="@color/colorDarkModeText"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/img5"
+                app:layout_constraintTop_toBottomOf="@+id/titulo5" />
+        </android.support.constraint.ConstraintLayout>
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img6"
+                android:layout_width="100dp"
+                android:layout_height="00dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:minWidth="100dp"
+                android:minHeight="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/i6"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/titulo6"
+                android:layout_width="244dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="6. Gosta de música country e bluegrass"
+                android:textColor="@color/colorDarkModeAccents_orange"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/img6"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/texto6"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Entre os interesses ecléticos de Miyamoto está a música bluegrass. O designer formou uma banda de bluegrass na faculdade e acredita que há uma relação próxima entre aprender a jogar e aprender a tocar um instrumento. Certa vez, ele comparou o aprendizado do acorde F na guitarra para dominar uma jogada de jogo complexa: uma vez feito, você investiu mais na música (ou no jogo). O colaborador de longa data Takashi Tezuka e o falecido presidente da Nintendo, Satoru Iwata, especularam que Mario Yoshi nasceu da apreciação de Miyamoto pela iconografia do Velho Oeste como se fosse um cavalo."
+                android:textColor="@color/colorDarkModeText"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/img6"
+                app:layout_constraintTop_toBottomOf="@+id/titulo6" />
+        </android.support.constraint.ConstraintLayout>
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img7"
+                android:layout_width="100dp"
+                android:layout_height="00dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:minWidth="100dp"
+                android:minHeight="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/i7"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/titulo7"
+                android:layout_width="244dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="7. A Nintendo não o deixa ir trabalhar de bicicleta"
+                android:textColor="@color/colorDarkModeAccents_orange"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/img7"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/texto7"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Como o papel de Miyamoto na Nintendo evoluiu e se tornou cada vez mais importante para o resultado final da empresa, eles começaram a se proteger mais dele. Ele costumava andar ou andar de bicicleta para trabalhar - mas eles eventualmente insistiram que ele andasse de carro para compensar o potencial de ser atingido por um motorista que passava."
+                android:textColor="@color/colorDarkModeText"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/img7"
+                app:layout_constraintTop_toBottomOf="@+id/titulo7" />
+        </android.support.constraint.ConstraintLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

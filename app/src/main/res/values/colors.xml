@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#17A398</color>
+    <color name="colorDarkModeBackground">#33312E</color>
+    <color name="colorDarkModeBackground_light">#4f4b47</color>
+    <color name="colorDarkModeText">#ECF0F1</color>
+    <color name="colorDarkModeAccents_green">#17A398</color>
+    <color name="colorDarkModeAccents_purple">#662C91</color>
+    <color name="colorDarkModeAccents_dark_purple">#242133</color>
+    <color name="colorDarkModeAccents_light_orange">#F38D68</color>
+    <color name="colorDarkModeAccents_orange">#EE6C4D</color>
+</resources>
